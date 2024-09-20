@@ -1,0 +1,11 @@
+{
+    "name": "file.sink",
+    "config": {
+        "connector.class": "org.apache.kafka.connect.file.FileStreamSinkConnector",
+        "file": "\/tmp\/tezt.txt",
+        "topics": "ams.metaswitch.assurance",
+        "name": "file.sink",
+        "value.converter": "org.apache.kafka.connect.storage.StringConverter"
+    },
+    "type": "sink"
+}
