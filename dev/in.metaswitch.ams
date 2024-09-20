@@ -18,7 +18,6 @@
         "value.converter": "org.apache.kafka.connect.converters.ByteArrayConverter",
         "errors.log.enable": "false",
         "key.converter": "org.apache.kafka.connect.storage.StringConverter",
-        "# The following values must be configured.": "",
         "transforms.RemoteTransformer.type": "org.apache.camel.kafkaconnector.RemoteFileTransforms",
         "camel.source.endpoint.recursive": "false",
         "topics": "ams.metaswitch.assurance",
